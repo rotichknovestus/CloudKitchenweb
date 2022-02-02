@@ -4,3 +4,41 @@
         <a routerLink="menu">ORDER NOW <i class="bi bi-arrow-right"></i></a>
     </div>
 </div>
+<div class="container mt-5 mb-4">
+    <h1 class="text-center">How to get <span class="highlight">fresh food</span></h1>
+    <div class="row mt-5">
+        <!-- one -->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>1</h1>
+                <p>Select food</p>
+            </div>
+        </div>
+        <!-- two -->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>2</h1>
+                <p>Fill the details</p>
+            </div>
+        </div>
+        <!-- three -->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>3</h1>
+                <p>Your order delivered in minute</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- foodBox -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-ld-3" *ngFor="let fb of foodData">
+            <div class="foodbox">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+</div>
