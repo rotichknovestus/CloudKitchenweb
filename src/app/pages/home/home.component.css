@@ -48,3 +48,9 @@
     font-style: italic;
     text-decoration: underline;
 }
+.foodbox{
+    padding: 10px 5px;
+}
+.foodbox img{
+    width: 100%;
+}

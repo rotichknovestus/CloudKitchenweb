@@ -7,10 +7,10 @@ import { OrderDetailsService } from 'src/app/services/order-details.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private services:OrderDetailsService) { }
+  constructor(private service:OrderDetailsService) { }
   foodData:any;
   ngOnInit(): void {
-    this.foodData = this.services.foodDetails;
+    this.foodData = this.service.foodDetails;
   }
 
 }
