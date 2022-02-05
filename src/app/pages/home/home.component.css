@@ -60,4 +60,13 @@
 .foodbox h1{
     font-size: 18px;
     margin-top: 20px;
+    font-weight: bold;
+}
+.viewmorebtn{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #000;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
 }
