@@ -1,7 +1,8 @@
 .foodbox{
     border-radius: 5px;
     background-color: var(--primary-color);
-    padding: 20px;
+    /* padding: 20px; */
+    margin: 20px;
 }
 .foodbox i{
     font-size: 30px;
